@@ -1,0 +1,40 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:pink;
+}
+
+.container{
+	width:230px;
+	border:1px solid #ccc;
+	padding:5px;
+	margin:10px auto;
+	border-radius:5px;
+	background-color:purple;
+}
+
+p{
+	text-align:center;
+	color:#fff;
+	font-size:23px;
+}
+
+#cal{
+	height:50px;
+	width:220px;
+	font-size:37px;
+	text-align:right;
+}
+
+.button,.button0,.button1{
+	border:1px solid #ccc;
+	text-align:center;
+	height:40px;
+	width:50px;
+	background-color:yellow;
+}
+
+.button:hover,.button0:hover,.button1:hover{
+	cursor:pointer;
+	background-color:red;
+}

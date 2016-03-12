@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<p>网页版简单计算器</p>
+		<table>
+			<tr>
+				<td colspan="4"><input type="text" id="cal"></td>
+			</tr>
+			<tr>
+				<td class="button1" onclick="fback()">←</td>
+				<td class="button1" onclick="fclear()">CE</td>
+				<td class="button1" onclick="fclear()">C</td>
+				<td class="button1" onclick="calculate(this)">/</td>
+			</tr>
+			<tr>
+				<td class="button" onclick="show(this)">7</td>
+				<td class="button" onclick="show(this)">8</td>
+				<td class="button" onclick="show(this)">9</td>
+				<td class="button1" onclick="calculate(this)">*</td>
+			</tr>
+			<tr>
+				<td class="button" onclick="show(this)">4</td>
+				<td class="button" onclick="show(this)">5</td>
+				<td class="button" onclick="show(this)">6</td>
+				<td class="button1" onclick="calculate(this)">-</td>
+			</tr>
+			<tr>
+				<td class="button" onclick="show(this)">1</td>
+				<td class="button" onclick="show(this)">2</td>
+				<td class="button" onclick="show(this)">3</td>
+				<td class="button1" onclick="calculate(this)">+</td>
+			</tr>
+			<tr>
+				<td class="button0" colspan="2" onclick="show(this)">0</td>
+				<td class="button1" onclick="show(this)">.</td>
+				<td class="button1" onclick="fresult()">=</td>
+			</tr>
+		</table>
+	</div>
+	<script src="fun.js"></script>
+</body>
+</html>
