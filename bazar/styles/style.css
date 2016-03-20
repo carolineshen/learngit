@@ -1,0 +1,178 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width:90%;
+	margin:0 auto;
+}
+
+header,section,footer{
+	display:block;
+}
+
+ul.nav{
+	float:right;
+}
+li.h{
+	list-style:none;
+	float:left;
+	margin-left:20px;
+}
+li.h a{
+	text-decoration:none;
+	font-weight:bold;
+	color:gray;
+	font-family:"微软雅黑",sans-serif;
+}
+
+hr{
+	clear:both;
+}
+hr.light{
+	margin-bottom:-.3em;
+}
+hr.bold{
+	height:3px;
+	background-color:gray;
+	color:gray;
+	border-width:0;
+	margin-bottom:0;
+}
+
+
+div.nav_blo{
+	margin-top:0;
+	border-bottom:1px solid gray;
+	/*height:100px;*/
+}
+
+div.left{
+	float:left;
+	height:100px;
+	padding-right:20px;
+	width:32.5%;
+}
+
+div.right{
+	float:right;
+	height:100px;
+	width:65%;
+}
+
+div.rleft{
+	float:left;
+	width:50%;
+}
+
+div.rright{
+	float:right;
+	width:50%;
+}
+
+div.rleft table{
+	border-collapse:collapse;
+}
+div.rleft table,td{
+	border:1px solid gray;
+	border-bottom:none;
+}
+
+span.l1{
+	font:bold 40px/50px "times",sans-serif;
+	letter-spacing: -3px;
+}
+span.l2{
+	font:bold 40px/50px "times",sans-serif;
+	color:orange;
+	letter-spacing: -3px;
+}
+span.l3{
+	font:100 20px "arial",sans-serif;
+	color:#ccc;
+	letter-spacing:0px;
+}
+
+ul.nav_main{
+	margin:0;
+	padding:0;
+}
+ul.nav_main li{
+	float:left;
+	list-style: none;
+	display:inline-block;
+	height:30px;
+	padding:0 28px 0 0;
+	margin-top:15px;
+
+}
+ul.nav_main li a{
+	text-decoration: none;
+	color:gray;
+	font:bold 18px/18px "arial",sans-serif;
+	letter-spacing: -1px;
+}
+
+ul.pic{
+	width:100%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+ul.pic li{
+	list-style: none;
+	float:left;
+	padding:10px;
+	border:1px solid gray;
+	margin:20px 15px 5px 0;
+}
+ul.pic li p{
+	text-align:center;
+	font:bold 16px/16px "arial",sans-serif;
+}
+ul.pic li p del{
+	color:#aaa;
+}
+ul.pic li p.g1{
+	color:#444;
+	letter-spacing:-1px;
+	font-weight:normal;
+}
+
+span.sale{
+	width:0;
+	height:0;
+	border-top:77px solid black;
+	border-right:77px solid transparent;
+	color:#fff;
+}
+
+.wall{
+	width:100%;
+	clear:both;
+	overflow:hidden;
+}
+.wall .lf{
+	float:left;
+}
+.wall .lf span{
+	color:gray;
+	font:20px/40px "arial",sans-serif;
+	letter-spacing:-2px;
+	vertical-align:20%;
+}
+.wall .lf span:hover{
+	color:black;
+}
+.wall .lf b{
+	color:gray;
+	font:lighter 40px/20px "arial",sans-serif;
+	/*margin:0px 0px -30px 0px;*/
+}
+.wall .rf{
+	float:right;
+}
+.wall .rf i{
+	color:gray;
+}
